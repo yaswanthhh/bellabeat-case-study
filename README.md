@@ -74,5 +74,14 @@ Focus is on daily usage of the Fitbit device as it should provide a high-level i
     ```
 
 * **Cleaning the Data:**
-  
+ After exploring these tables i observed a few things:
+  * Merging of the data frames is possible because they all have same ‘ID’ fields.
+  * The daily_activity, daily_calories, and daily_intensities have the exact (940) number of observations.
+  * Lastly the daily_activity table might have a log of calories and intensities already, so we should confirm that the values actually match for any given ‘ID’ number.
+
+This means I can carry out my analysis with just the 3 different data frames: *daily_activity*, *sleep_day*, *weight_log*
+Now, since we have completed the data processing, we carry on with Analysing the data.
+
+## Analysing the Data
+
 
